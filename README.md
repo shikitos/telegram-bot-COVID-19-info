@@ -1,4 +1,4 @@
-# telegram-bot-COVID-19-info
+# Telegram-bot-COVID-19-info
 
 Greetings, it is my first project with JavaScript — more precisely, on Node.JS.
 
