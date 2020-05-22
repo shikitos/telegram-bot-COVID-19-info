@@ -1,4 +1,4 @@
-const country = `
+module.exports = `
 afghanistan, albania, algeria, andorra, angola, anguilla, antigua-and-barbuda, argentina, armenia, aruba, australia, austria, azerbaijan
 
 bahamas, bahrain, bangladesh, barbados, belarus, belgium, belize, benin, bermuda, bhutan, bolivia, bosnia-and-herzegovina, botswana, brazil, british-virgin-islands, brunei-darussalam, bulgaria, burkina-faso, burundi
@@ -45,5 +45,3 @@ venezuela, viet-nam
 
 zambia, zimbabwe
 `;
-
-module.exports = country;
