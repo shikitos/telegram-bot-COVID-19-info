@@ -7,10 +7,13 @@ const country = require('./constants.js');
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 bot.start((ctx) =>
-    ctx.reply('Hello!\nI am a bot that can provide you with data on cases, deaths, and other events related to COVID-19.\nIf you want to know which countries are available — just say /help.',
-        markup.keyboard([
+    ctx.reply(
+        'Hello!\nI am a bot that can provide you with data on cases, deaths, and other events related to COVID-19.\nIf you want to know which countries are available — just say /help.',
+        markup
+        .keyboard([
             ['US', 'Russia'],
             ['Hungary', 'UK'],
+            ['Deaths']
         ])
         .resize()
         .extra()
