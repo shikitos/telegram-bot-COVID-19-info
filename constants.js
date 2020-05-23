@@ -1,4 +1,10 @@
 module.exports = `
+Here are the countries that you can select to get statistics from.
+
+You can also find out the number of deaths worldwide by writing "deaths" or "Deaths"!
+
+------------------------------------------------------------------------------------------
+
 afghanistan, albania, algeria, andorra, angola, anguilla, antigua-and-barbuda, argentina, armenia, aruba, australia, austria, azerbaijan
 
 bahamas, bahrain, bangladesh, barbados, belarus, belgium, belize, benin, bermuda, bhutan, bolivia, bosnia-and-herzegovina, botswana, brazil, british-virgin-islands, brunei-darussalam, bulgaria, burkina-faso, burundi

@@ -9,7 +9,8 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 bot.start((ctx) =>
     ctx.reply(
         'Hello!\nI am a bot that can provide you with data on cases, deaths, and other events related to COVID-19.\nIf you want to know which countries are available — just say /help.',
-        markup.keyboard([
+        markup
+        .keyboard([
             ['US', 'Russia'],
             ['Hungary', 'UK'],
         ])
@@ -49,13 +50,13 @@ Recovered: ${data[0][0].recovered}
     `;
         ctx.reply(formatData);
     } catch {
-        // console.log(ctx.message);
-        ctx.reply(`Error. ${ctx.message.text} is a wrong country!\nIf you want to know which country I can provide you with data about.\nJust say /help`);
+        ctx.reply(
+            `Error. ${ctx.message.text} is a wrong country!\nIf you want to know which country I can provide you with data about.\nJust say /help`
+        );
+        console.log(data[0][0].country);
     }
 });
 
-
-// eslint-disable-next-line prettier/prettier
 bot.launch();
 
 // eslint-disable-next-line no-console
