@@ -1,8 +1,8 @@
 # Telegram-bot-COVID-19-info
 
-Greetings, it is my first project with JavaScript — more precisely, on Node.JS.
+Greetings, it is my first project with <strong>JavaScript</strong> — more precisely, on <strong>Node.JS</strong>.
 
-Why Node.JS, if I have not some projects at the ordinary JavaScript?
+Why Node.JS, if I have not some projects at the pure JavaScript?
 
 I don't know, really...
 I've seen one video, which was about Telegram's bot on Node.JS
@@ -34,3 +34,4 @@ Well, welcome, my friend!
   <p>Statistics are updating every second, it gets data from all countries over the world.</p>
 <h3>A bot is working now? Where can I talk with him?</h3>
   <p>Yes, bot is in the hosting named "Glitch". You can talk with him in telegram - http://t.me/about_covid19_bot.</p>
+
